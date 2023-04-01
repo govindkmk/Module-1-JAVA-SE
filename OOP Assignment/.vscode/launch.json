@@ -1,0 +1,104 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.8.0",
+    "configurations": [
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AreasOverloading",
+            "request": "launch",
+            "mainClass": "AreasOverloading",
+            "projectName": "OOP Assignment_57dc9f62"
+        },
+        {
+            "type": "java",
+            "name": "Customer",
+            "request": "launch",
+            "mainClass": "Customer",
+            "projectName": "OOP Assignment_57dc9f62"
+        },
+        {
+            "type": "java",
+            "name": "Customers",
+            "request": "launch",
+            "mainClass": "Customers",
+            "projectName": "OOP Assignment_57dc9f62"
+        },
+        {
+            "type": "java",
+            "name": "CustomersConst",
+            "request": "launch",
+            "mainClass": "CustomersConst",
+            "projectName": "OOP Assignment_57dc9f62"
+        },
+        {
+            "type": "java",
+            "name": "Employee",
+            "request": "launch",
+            "mainClass": "Employee",
+            "projectName": "OOP Assignment_57dc9f62"
+        },
+        {
+            "type": "java",
+            "name": "Employee(1)",
+            "request": "launch",
+            "mainClass": "Employees.Employee",
+            "projectName": "OOP Assignment_57dc9f62"
+        },
+        {
+            "type": "java",
+            "name": "Exam",
+            "request": "launch",
+            "mainClass": "Exam",
+            "projectName": "OOP Assignment_57dc9f62"
+        },
+        {
+            "type": "java",
+            "name": "HelloString",
+            "request": "launch",
+            "mainClass": "HelloString",
+            "projectName": "OOP Assignment_57dc9f62"
+        },
+        {
+            "type": "java",
+            "name": "SimpleInterest",
+            "request": "launch",
+            "mainClass": "SimpleInterest",
+            "projectName": "OOP Assignment_57dc9f62"
+        }
+    ]
+}
