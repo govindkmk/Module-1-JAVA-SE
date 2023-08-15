@@ -1,0 +1,7 @@
+Difference between FileReader & BufferedReader
+
+FileReader--> read data character by character.
+-->Read one character then again go to file and then again go to file for read one an other character.
+
+BufferedReader--> read data line by line 
+-->It goes only once in a file.
